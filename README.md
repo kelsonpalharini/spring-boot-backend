@@ -87,6 +87,6 @@ src/main/resources/application.properties
 - [Java SE Development Kit 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Development Environment
 - [Spring](https://spring.io/projects/spring-boot) - Framework
 - [MySQL](https://www.mysql.com/) - Database
-- [Cloud SQL - Google Cloud Platform](https://cloud.google.com/sql) - DBaaS
 - [H2](https://www.h2database.com/html/main.html) - Database
+- [Cloud SQL - Google Cloud Platform](https://cloud.google.com/sql) - DBaaS
 - [HEROKU](https://www.heroku.com) - PaaS
