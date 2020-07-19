@@ -70,7 +70,7 @@ Você pode configurar os dados de conexão no arquivo do profile encontrado em:
 src/main/resources/application-prod.properties
 ```
 
-São 3 váriaveis de ambiente responsáveis pela conexão com o banco:
+Para o profile de produção, são 3 váriaveis de ambiente responsáveis pela conexão com o banco:
 
 - JDBC_DATABASE_URL: Para o envio da url de conexão;
 - JDBC_DATABASE_USERNAME: Para o envio do usuário;
@@ -78,7 +78,9 @@ São 3 váriaveis de ambiente responsáveis pela conexão com o banco:
 
 O arquivo de configuração de profiles é o:
 
+```
 src/main/resources/application.properties
+```
 
 ## Construído usando <a name = "built_using"></a>
 
