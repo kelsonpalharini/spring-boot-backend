@@ -7,8 +7,8 @@
 ## Conteúdo
 
 - [Começando](#getting_started)
+- [Rodando a aplicação](#running)
 - [Construído usando](#built_using)
-- [Encontrando alguns arquivos importantes](#detail)
 
 ## Começando <a name = "getting_started"></a>
 
@@ -39,13 +39,11 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
 
 Caso contrário instale a versão 11 para que a aplicação execute de forma correta
 
-### Rodando a aplicação
+### Rodando a aplicação <a name = "running"></a>
 
 A aplicação possui 3 profiles para execução:
 
-```
-dev
-```
+- dev
 
 Executa a aplicação em modo de desenvolvimento, usando uma instância local do banco de dados MySQL.
 Você pode configurar os dados de conexão no arquivo do profile encontrado em:
@@ -54,9 +52,7 @@ Você pode configurar os dados de conexão no arquivo do profile encontrado em:
 src/main/resources/application-dev.properties
 ```
 
-```
-test
-```
+- test
 
 Executa a aplicação em modo de teste, usando uma instância local do banco de dados H2.
 Você pode configurar os dados de conexão no arquivo do profile encontrado em:
@@ -65,9 +61,7 @@ Você pode configurar os dados de conexão no arquivo do profile encontrado em:
 src/main/resources/application-test.properties
 ```
 
-```
-prod
-```
+- prod
 
 Executa a aplicação em modo de teste, usando uma instância externa do banco de dados MySQL.
 Você pode configurar os dados de conexão no arquivo do profile encontrado em:
