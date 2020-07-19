@@ -16,7 +16,7 @@ Essas instruções vão te permitir baixar uma cópia do código fonte da aplica
 
 ### Pré-requisitos
 
-- A primeira ação é baixar o código fonte da aplicação, para isso clone o repositório com o seguinte comando:.
+- A primeira ação é baixar o código fonte da aplicação, para isso clone o repositório com o seguinte comando:
 
 ```
 git clone https://github.com/kelsonpalharini/spring-boot-ionic-backend.git
@@ -37,7 +37,7 @@ Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
 ```
 
-Caso contrário instale a versão 11 para que a aplicação execute de forma correta
+Caso contrário instale a versão 11 para que a aplicação execute de forma correta.
 
 ### Rodando a aplicação <a name = "running"></a>
 
@@ -76,7 +76,7 @@ Para o profile de produção, são 3 váriaveis de ambiente responsáveis pela c
 - JDBC_DATABASE_USERNAME: Para o envio do usuário;
 - JDBC_DATABASE_PASSWORD - Para o envio da senha;
 
-O arquivo de configuração de profiles é o:
+O profile deve ser configurado no arquivo:
 
 ```
 src/main/resources/application.properties
