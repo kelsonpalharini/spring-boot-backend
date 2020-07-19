@@ -1,4 +1,4 @@
-<h1 align="center">Spring Boot Ionic Backend</h1>
+<h1 align="center">Spring Boot Backend</h1>
 
 <p align="center">Aplicação backend criada para atualizar meus conhecimentos sobre Spring Framework.
     <br>
